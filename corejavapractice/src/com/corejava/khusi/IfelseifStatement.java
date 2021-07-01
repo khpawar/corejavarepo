@@ -6,18 +6,14 @@ public class IfelseifStatement {
 
 		if(x == 10){
 			System.out.print("value of x is 10");
-		}
-		else if(x == 20){
+		}else if(x == 20){
 			System.out.println("value of x is 20");
 			System.out.print("This is an else if block");
-		}
-		else if(x == 30){
+		}else if(x == 30){
 			System.out.println("value of x is 30");
 			System.out.print("This is an else if block");
-		}
-		else {
+		}else{
 			System.out.print("This is else statement");
-
 		}
 	}
 }
