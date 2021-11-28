@@ -4,13 +4,29 @@ public class RelationalOperator {
    public static void main(String args[]){
 	   int a = 10;
 	   int b = 20;
-	   System.out.println("a == b= " +(a==b));
-	   System.out.println("a != b= " +(a!=b));
-	   System.out.println("a > b= " + (a>b));
-	   System.out.println("a < b= " + (a<b));
-	   System.out.println("b >= a= " + (b>=a));
-	   System.out.println("b <= a= "+ (b<=a));
+	   int c = 30;
+	    int smallest;
+	   //find the smallest number
+	   if(a<b) {
+		   if(c<a) {
+			   smallest =c;
+		   }else {
+			   smallest = a;
+			   }
+	   }else {
+		   if(b<c) {
+			   smallest = b;
+			    }else {
+			    	smallest = c;
+			    	}
+	   }
 	   
+	   System.out.println(smallest +" is the smallest number");
+	   }
    }
    
-}
+	  
+	   
+   
+   
+
