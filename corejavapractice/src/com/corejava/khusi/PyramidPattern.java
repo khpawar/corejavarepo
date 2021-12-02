@@ -13,8 +13,8 @@ public class PyramidPattern{
 			}
 			for(j=0; j<=i; j++)
 			{
-				//prints star
-				System.out.print(" * ");
+				
+				System.out.print(" 1 ");
 			}
 			//throws the cursor in a new line after printing each line
 			System.out.println();
